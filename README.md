@@ -5,4 +5,4 @@ Garnet is a web-based pixel art app built using the Svelte framework. It is a fu
 
 ## License
 
-Garnet is released under the [MIT License](LICENSE.md).
+Garnet is released under the [MIT License](LICENSE).

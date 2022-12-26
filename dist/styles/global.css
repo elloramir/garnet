@@ -1,4 +1,5 @@
 :root {
+	--background: #555555;
 	--primary: #313131;
 	--secondary: #464646;
 	--outline: #191919;
@@ -13,8 +14,17 @@
 	box-sizing: border-box;
 }
 
-body {
+body, html {
+	height: 100%;
+}
+
+body, button, input, select, textarea {
 	font-family: Calibri, sans-serif;
+	font-size: 16px;
+}
+
+body {
+	background-color: var(--background);
 	color: var(--text-primary);
 	user-select: none;
 }

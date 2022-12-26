@@ -11,8 +11,8 @@
 
 <style>
 	.panel {
-		width: 300px;
-		height: 300px;
+		width: 100%;
+		height: 100%;
 		background-color: var(--primary);
 		border: 2px solid var(--outline);
 		border-radius: 3px;

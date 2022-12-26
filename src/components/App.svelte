@@ -1,1 +1,5 @@
-<h1>Hello world</h1>
+<script>
+	import Window from "./Window.svelte"
+</script>
+
+<Window />

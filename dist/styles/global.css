@@ -1,0 +1,10 @@
+@font-face {
+/*	font-family: "aseprite";*/
+/*	src: url(/fonts/aseprite-remix.ttf);*/
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}

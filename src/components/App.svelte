@@ -1,5 +1,5 @@
 <script>
-	import Window from "./Window.svelte"
+	import Panel from "./Panel.svelte"
 </script>
 
-<Window />
+<Panel />

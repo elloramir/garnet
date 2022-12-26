@@ -1,16 +1,16 @@
-<div class="window">
-	<div class="window-inner">
-		<div class="window-header">
-			<span>Hello window</span>
+<div class="panel">
+	<div class="panel-inner">
+		<div class="panel-header">
+			<span>Hello panel</span>
 		</div>
-		<div class="window-content">
-			<span>hello iam a window content</span>
+		<div class="panel-content">
+			<span>hello iam a panel content</span>
 		</div>
 	</div>
 </div>
 
 <style>
-	.window {
+	.panel {
 		width: 300px;
 		height: 300px;
 		background-color: var(--primary);
@@ -18,21 +18,21 @@
 		border-radius: 3px;
 	}
 
-	.window-inner {
+	.panel-inner {
 		border: 2px solid var(--innerline);
 		height: 100%;
 		display: flex;
 		flex-direction: column;
 	}
 
-	.window-header {
+	.panel-header {
 		background-color: var(--secondary);
 		font-weight: bold;
 		padding: 3px 5px;
 		cursor: pointer;
 	}
 
-	.window-content {
+	.panel-content {
 		border: 2px solid rgba(0, 0, 0, 0.3);
 		padding: 3px 5px;
 		flex: 1;
